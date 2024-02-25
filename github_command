@@ -1,0 +1,19 @@
+"Create a new repository"
+git "repository name"
+git add "file name"
+git commit -m "to describe the meaning"
+git branch -M main 
+git remote add origin https://github.com/yiulsup/"repository name".git
+git push -u origin main
+
+
+"push an existing repository"
+git remote add origin https://github.com/yiulsup/"repository name".git
+git branch -M main
+git push -u origin main
+
+
+"pull an exisiting repository"
+git remote add origin https://github.com/yiulsup/"repository name".git
+git branch -M main
+git pull origin main
